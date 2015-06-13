@@ -10,7 +10,7 @@ for talking about sound as a material, as well as the ability to make and
 use tools for investigating and manipulating sound for creative purposes.
 
 Our frame of reference will be Good Vibrations, a mobile listening kit that
-allows =E2=80=9Cacoustic explorers=E2=80=9D to find the lesser audible soun=
+allows "acoustic explorers" to find the lesser audible soun=
 ds in their
 environment. By using hand- made microphones and amplifiers, listeners can
 tune into the subtle vibrations
