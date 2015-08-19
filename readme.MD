@@ -59,6 +59,10 @@ McCarren Park and amplify found sounds.
 
 - Contact microphone build
 
+- https://www.youtube.com/watch?v=P8iAshJ1Pk0
+
+- https://www.youtube.com/watch?v=yz5CM0eCGA0
+
 -  Hour 3: Speaker
 
 - Speaker build

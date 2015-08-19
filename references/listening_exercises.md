@@ -29,3 +29,17 @@ http://www.discogs.com/Alan-Lamb-Archival-Recordings-Primal-Image-Beauty/release
 ### Lesley Flannigan
 
 [Speaker Feedback](http://lesleyflanigan.com/#Work)
+
+### Eric Leonardson
+
+[Springboard](https://www.youtube.com/watch?v=Gsarhr1JTi8)
+
+### Stephen McGreevy
+
+[Auroal Chorus](http://www.auroralchorus.com/)
+
+[VLF recordings](https://archive.org/details/@vlfradio)
+
+[Nautilus article](http://nautil.us/blog/how-radio-enthusiasts-are-listening-to-earths-secret-symphony)
+
+
