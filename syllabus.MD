@@ -6,6 +6,8 @@ Section Two: Microphones
 
 [David Dunn's Rolling Your Own Microphones](http://traktoria.org/files/sonar/Microphones_Hydrophones_Vibration-Transducers__Rolling_Your_Own__Dunn2007.pdf)
 
+[Micro Listening Workshops](http://subtropics.org/micro-listening-workshops/)
+
 Section Three: Speakers
 
 Section Four: Amplifiers
