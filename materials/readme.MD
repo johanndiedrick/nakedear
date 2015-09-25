@@ -28,10 +28,10 @@
 
 ## From Digikey
 
-[Piezo Elements](http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=180563742&uq=635787224790071919)
+- [Piezo Elements](http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=180563742&uq=635787224790071919)
 
 ## From Amazon
 
-[Plasti Dip](http://www.amazon.com/gp/product/B00I9SK8XY/ref=ox_sc_imb_mini_detail?ie=UTF8&psc=1&smid=ATVPDKIKX0DER)
+- [Plasti Dip](http://www.amazon.com/gp/product/B00I9SK8XY/ref=ox_sc_imb_mini_detail?ie=UTF8&psc=1&smid=ATVPDKIKX0DER)
 
-[Pipe Cleaners](http://www.amazon.com/gp/product/B000GAZ4NC/ref=ox_sc_imb_mini_detail?ie=UTF8&psc=1&smid=ATVPDKIKX0DER)
+- [Pipe Cleaners](http://www.amazon.com/gp/product/B000GAZ4NC/ref=ox_sc_imb_mini_detail?ie=UTF8&psc=1&smid=ATVPDKIKX0DER)
