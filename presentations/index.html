@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/naked.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<aside class="notes">
+					Listening exercise: https://tristanperich.bandcamp.com/album/1-bit-symphony
+					https://vimeo.com/12244413
+					</aside>
+					<h1>The Naked Ear</h1>
+					<h3>Tools and Techniques for Sound Art</h3>
+					<p>
+					<small><a href="http://johanndiedrick.com">Johann Diedrick</a> / <a href="http://twitter.com/jdiedrick">@jdiedrick</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Hello!</h2>
+					<p>
+					I'm Johann. Nice to meet you :)
+					</p>
+
+				</section>
+
+				<section>
+					<h2>And you are..?</h2>
+					<li class="fragment">What's your name</li>
+					<li class="fragment">Where are you from?</li>
+					<li class="fragment">What do you spend most of your time doing?</li>
+					<p class="fragment"><em>** BONUS **</em> What is your favorite dessert?</p>
+
+
+				</section>
+
+				<section>
+					<section>
+						<h2>Rules for Basic Human Decency</h2>
+					</section>
+					
+					<section>
+					<img height="600px" src="img/punk.jpg">
+					</section>
+
+					<section>
+					<p>Borrowed from <a href="http://blog.blprnt.com/">Jer Thorp</a>'s <a href="https://github.com/blprnt/dataart">Data Art</a> syllabus:</p>
+						<p>"I am 100% dedicated to a inclusive, harassment-free experience for everyone regardless of gender, race, sexual orientation, disability, appearance, or religion. I will not tolerate harassment of class participants in any form."</p>
+
+					</section>
+				</section>
+				<section>
+					<h2>Why are we all here?</h2>
+					<aside class="notes">
+					<p>Introduce GV here?</p>
+					Why am I here? Because this is what I do and want to teach people about my passion!
+					</aside>
+
+				</section>
+
+				<section>
+					<section>
+					<h2>What will we be doing?</h2>
+						<li class="fragment">Some lecture</li>
+						<li class="fragment">Lots of (listening) examples</li>
+						<li class="fragment">Mostly building and making ..</li>
+						<p class="fragment">.. doing and exploring ..</li>
+						<p class="fragment">.. talking and listening.</li>
+
+					</section>
+					<section>
+					<h2>Workshop Overview</h2>
+					<p class="fragment">DAY 1</b>
+					<ol>
+						<li class="fragment">An anecdotal survey of sound art</li>
+						<li class="fragment">Microphones</li>
+						<li class="fragment">Speakers</li>
+						<li class="fragment">Amplifier</li>
+					</ol>
+					<p class="fragment">DAY 2</p>
+					<ol>
+						<li class="fragment">Circuit Boards</li>
+						<li class="fragment">Enclosuers</li>
+						<li class="fragment">Exploring</li>
+						<li class="fragment">Presentation</li>
+					</ol>
+					</section>
+				</section>
+
+				<section>
+					<h2>What is Sound Art?</h2>
+					<aside class="notes">
+						Ask for answers, care out definition through xamples
+					</aside>
+				</section>
+
+				<section>
+					<section>
+					<h2>Sculpture</h2>
+					<p><em>Homage to New York</em>, Jean Tinguely, 1960</p>
+					<p><a href="http://www.moma.org/collection/works/81174">MoMA Collection Page</a>
+					</section>
+					<section>
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/0MqsWqBX4wQ" frameborder="0" allowfullscreen></iframe>
+					</section>
+				</section>
+					
+				<section>
+					<section>
+					<h2>Installation</h2>
+					<p><em>Transfinite</em>, Ryoji Ikeda, 2011</p>
+					<p><a href="http://www.ryojiikeda.com/project/thetransfinite/">Artist's website</a>
+					</section>
+					<section>
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/omDK2Cm2mwo" frameborder="0" allowfullscreen></iframe>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Environment</h2>
+					<p><em>Times Square</em>, Max Neuhaus, 1972-1992; reinstalled in 2002</p>
+					<p><a href="http://www.diaart.org/sites/main/timessquare">Dia Art Foundation's website</a>
+					</section>
+					<section>
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/gahUMGmKzIA" frameborder="0" allowfullscreen></iframe>
+					</section>
+					<section>
+					<img src="img/TimesSquare.gif">
+					</section>
+				</section>
+				
+				<section>
+					<section>
+					<h2>Performance</h2>
+					<p><em>Hair Hymn</em>, APA (Xuan Ye), 2014-2015</p>
+					<p><a href="http://a.pureapparat.us/">Artist's website</a>
+					</section>
+					<section>
+						<img src="img/hairhymn.png">
+						<audio controls>
+							<source src="audio/hairhymn.mp3" type="audio/mpeg">
+						</audio>
+					</section>
+
+				</section>
+				
+				<section>
+					<section>
+					<h2>Architecture</h2>
+					<p><em>Forest Megaphones</em>, Estonian Academy of Arts, 2015</p>
+					<p><a href="http://www.artun.ee/en/unplugged-kingsize-megaphones-help-nature-explorers-to-listen-to-the-forests-2/">Artist's website</a>
+					</section>
+					<section>
+						<img src="img/estonia1.jpg">
+					</section>
+					<section>
+						<img src="img/estonia2.jpg">
+					</section>
+					<section>
+						<img src="img/estonia3.jpg">
+					</section>
+
+				</section>
+				<section>
+					<section>
+					<h2>Something in between</h2>
+					<p><em>viewKoma</em>, Tetsuya Umeda and Kanta Horio, 2006</p>
+					<p><a href="http://www.siranami.com/">Tetsuya Umeda's website</a>
+					<p><a href="http://kanta.but.jp/">Kanta Horio's website</a>
+					</section>
+					<section>
+						<iframe width="420" height="315" src="https://www.youtube.com/embed/42MLNXqMGzA" frameborder="0" allowfullscreen></iframe>
+					</section>
+
+				</section>
+
+
+				<section>
+					<h2>Formal definition</h2>
+					<p class="fragment">Look in a book</p>
+				</section>
+				
+				<section>
+					<section>
+						<h2>What is sound?</h2>
+						<aside class="notes">
+						A bit of a physics lesson
+						</aside>
+					</section>
+					<section>
+						<h2>Sound is Vibration</h2>
+						<li class="fragment">Vibration can be described as waves</li>
+						<li class="fragment"><a href="https://jackschaedler.github.io/circles-sines-signals/sound.html">Seeing Circles, Lines and Signals</a></li>
+					</section>
+					
+					<section>
+						<aside class="notes">
+						- Walter Murch's forward: "We begin to hear before we are born, four and a half months after conception"
+						- Seth Horowitz, vibration through water was one of the first evolutionary developed stimuli to sense
+						- Explain how this translates to sound (Frequency, Intensity (vs. Loudness/Volume) )
+						</aside>
+						<h2>Sound is Vibration Perceived by Our Ears</h2>
+						<li class="fragment">Michel Chion's <em>Audio-Vision</em></li>
+						<li class="fragment">Seth Horowitz's <em>Universal Sense</em></li>
+					</section>
+
+					<section>
+						<h2>Sound is Vibration Perceived by Our Ears Within a Certain Range</h2>
+						<img class="fragment" src="img/humanhearing.jpeg">
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Why think about sound?</h2>
+					<aside class="notes">
+					Why is sound important
+					</aside>
+					</section>
+
+					<section>
+					<h2>Sound is everywhere</h2>
+					<p>John Cage's <em>Silence</em></p>
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/jS9ZOlFB-kI" frameborder="0" allowfullscreen></iframe>
+					</section>
+
+					<section>
+					<h2>It affects our psychology</h2>
+					<aside class="notes">
+					https://en.wikipedia.org/wiki/Health_effects_from_noise
+
+					Noise health effects are the health consequences of regular exposure, to consistent elevated sound levels. Elevated workplace or other noise can cause hearing impairment, hypertension, ischemic heart disease, annoyance, and sleep disturbance. Changes in the immune system and birth defects have been attributed to noise exposure.
+
+					Bar anecdote
+					</aside>
+					<p><em>Noise Pollution</em></p>
+					</section>
+
+					<section>
+					<h2>It affects our environment</h2>
+					<aside class="notes">
+					noise affecting whales, loss of animals due to develoment removes sonic identifiers of environment.
+
+					Sound as good indicator of environmental health and biodiversity
+					</aside>
+
+					<p>From the NYTimes:</p>
+
+					<p><a href="http://www.nytimes.com/1993/10/19/science/human-noises-in-ocean-held-to-threaten-marine-mammals.html?pagewanted=all">Human Noises in Ocean Held to Threaten Marine Mammals</a></p>
+
+					<p><a href="http://www.nytimes.com/roomfordebate/2013/01/10/did-we-save-the-whales-19/ocean-noise-could-threaten-whales">Ocean Noise Could Threaten Whales</a></p>
+
+					<p><a href="http://www.nytimes.com/2012/07/17/science/whales-show-signs-of-coping-with-man-made-noise-underwater.html?pagewanted=all">Whales, Somehow, Are Coping With Humans’ Din</a></p>
+					
+					<p>R. Murray Schafer's <em>The Tuning of the World</em></p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Why is sound important for artists?</h2>
+					<aside class="notes">
+					In an arts pratice, its ripe for explorating and expression, very much overlooked and can bea powerful tool when used thoughtfully. 
+					</aside>
+					</section>
+					<section>
+					<h3>Janet Cardiff</h3>
+					<p><a href="http://www.cardiffmiller.com/artworks/walks/longhair.html">Her Long Black Hair</a></p>
+					<p><a href="https://www.youtube.com/watch?v=icoutF9py1M">40 Part Motet</a></p>
+					<p><a href="https://www.youtube.com/watch?v=CKBxLX7bZZQ">The Murder of Crows</a></p>
+					</section>
+
+					<section>
+					<h2>Creative Listening</h2>
+					<aside class="notes">
+					To get you started thinking about sound and listening creatively, we are going to make ourselves a tool for listening 
+					
+					So within all of this, what are we talking about today? What are we going to be looking at? Making?
+
+A basic sound system with one input, one output, and a mediator in between
+
+We're going to look at small sounds, and how we can amplify them for listening pleasure, artstic expression, and scientific investigation
+
+Introduce Good Vibrations
+
+Pass around and show everyone what we will be making
+
+Explain 3 main parts, and transition into the first part we are going to focus on making
+
+"One part is already done (headphones)! Just two parts to make"
+			</aside>
+			</section>
+			</section>
+
+		<section>
+			<h2>Microphones</h2>
+			<aside class="notes">
+			Play Night Passages
+			</aside>
+		</section>
+		<section>
+			<section>
+				<h2>How does a microphone work?</h2>
+				<aside class="notes">
+In general, microphones take in vibration and translate it into a signal. How that is used depends on the application. For our purposes, we will say the microphone moves or gets excited due to vibration, converts its own vibration into an electrical signal, and recreates that signal at the other end through speakers or headphones
+
+The microphone doesn't do all of this, but it is the input for this application.
+
+			</aside>
+			</section>
+			<section>
+				<img src="img/microphonework.jpg">
+			</section>
+		</section>
+		<section>
+		<aside class="notes">
+		Condenser: A condenser microphone is a microphone that uses a capacitor to convert the compression and rarefaction of sound waves into electrical energy , requires power. 
+		Dynamic mic: In the case of a dynamic microphone, a very thin diaphragm of mylar or other material is attached to a coil of hair-thin copper wire. The coil is suspended in a magnetic field and, when sound vibrates the diaphragm, the coil moves up and down, creating a very small electrical current.
+		Shotgun: Shotgun microphone definition, a directional microphone with a narrow-angle range of sensitivity. Used to eliminateunwanted sounds, pick up ones of interest.
+		Ultrasonic: Ultrasonic range
+		Hydrophone
+		</aside>
+			<h2>Different kinds of microphones</h2>
+			<li class="fragment">Dynamic</>
+			<li class="fragment">Condenser</>
+			<li class="fragment">Shotgun</>
+			<li class="fragment">Directional</>
+			<li class="fragment">Ultrasonic</>
+			<li class="fragment">Hydrophone</>
+			<li class="fragment">Binaural microphones </>
+		</section>
+		
+		<section>
+			<h2>David Dunn</h2>
+			<p class="fragment"><a href="http://traktoria.org/files/sonar/Microphones_Hydrophones_Vibration-Transducers__Rolling_Your_Own__Dunn2007.pdf">David Dunn's Rolling Your Own Microphones</a></p>
+			<p class="fragment"><a href="http://subtropics.org/micro-listening-workshops/">Micro Listening Workshops</a></p>
+		</section>
+
+		<section>
+			<section>
+				<h2>Piezos!</h2>
+				<aside class="notes">
+We're going to look at piezo microphone, for surface vibrations. Wildly powerful, inexpensive, easy to use for a variety of applications.
+				</aside>
+			</section>
+			<section>
+				<h2>Parts of the piezo microphone</h2>
+				<li p="fragment">Piezo</li>
+				<li p="fragment">Audio cable</li>
+				<li p="fragment">Mono audio jack</li>
+				<li p="fragment">A little flair~</li>
+			</section>
+			<section>
+				<h2>Let's build one!</h2>
+				<aside class="notes">
+Begin to assemble microphone
+
+Cut wire to arms span length
+
+Quick introduction to soldering!
+
+- Solder pizeo
+
+- Keep track of power vs ground
+
+- Solder 1/4" jack, keeping in mind
+
+- Look at Nick Collin's videos for soldering and pizeo prep references
+
+- Plasti dip ends and wait to dry!
+
+				</aside>
+			</section>
+		</section>
+
+		<section>
+			<section>
+				<h2>Speakers</h2>
+			</section>
+			<section>
+				<aside class="notes">
+				Explain breifly, explain we won't be building one
+				Inverse of a microphone
+				</aside>
+				<img src="img/loudspeaker.png">
+			</section>
+		</section>
+
+		<section>
+			<section>
+				<aside class="notes">
+				Listening exercise: VLF recordings? David Dunn's beatle recordings 
+				</aside>
+				<h2>Amplifiers</h2>
+			</section>
+			<section>
+				<aside class="notes">
+				Explain that while we have a microphone we need to make it a little louder for us to hear those small sounds! 
+				</aside>
+				<img src="img/amplifierwork.jpg">
+			</section>
+			<section>
+				<aside class="notes">
+So we're going to build an amplifier, a pretty basic one:
+
+	- Diagram of circuit we are going to build
+
+		- Ask if anyone has seen a circuit diagram before
+	
+	- Explain a bit what the circuit does/how it works
+
+	- Build circuit together
+
+		- Explain breadboard
+
+	- Test out circuit so they know what they have built, and prepare them for tomorrow
+
+				</aside>
+				<h2>Let's build one!</h2>
+				<img src="img/amplifiercircuit.jpg">
+				<p>Based on circit design by Eric Rosenthal presented in his <a href="http://www.basicanalogcircuits.com/Session_8.html">Basic Analog Circuits class</a></p>
+			</section>
+		</section>
+
+
+		<section>
+		<aside class="notes">
+Explain reasoning: 
+
+	- Makes it more secure
+
+	- Why didn't we just start with this? Makes us iterate again, for learning and practice
+
+- Assemble PCB with parts from yesterday
+			</aside>
+			<h2>Assembling Part 1: Amplifier</h2>
+		</section>
+
+
+		<section>
+			<aside class="notes">
+Listening exercise: TBD
+
+- Assemble Enclosure and finish mobile listening kits!
+			</aside>
+			<h2>Assembling Part 2: Enclosure</h2>
+		</section>
+	
+		<section>
+			<aside class="notes">
+Listening exercise: McCarren Park
+
+- Do mobile lisening exercise in McCarren Park, prepare cards for prompts
+			
+			</aside>
+			<h2>Exploring</h2>
+		</section>
+		
+		<section>
+			<aside class="notes">
+Listening exercise: the world!
+
+ - Come up with prompts for discussion
+
+ - Ask for feedback for the course!
+			</aside>
+			<h2>Presenting</h2>
+		</section>
+
+		<section>
+			<h2>Feedback</h2>
+		</section>
+		<section>
+			<h2>Thanks!</h2>
+		</section>
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Vertical Slides</h2>
+						<p>Slides can be nested inside of each other.</p>
+						<p>Use the <em>Space</em> key to navigate through all slides.</p>
+						<br>
+						<a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section>
+						<h2>Basement Level 1</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+					<section>
+						<h2>Basement Level 2</h2>
+						<p>That's it, time to go back up.</p>
+						<br>
+						<a href="#/2">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
+						</a>
+					</section>
+				</section>
+
+				<section>
+					<h2>Slides</h2>
+					<p>
+						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Point of View</h2>
+					<p>
+						Press <strong>ESC</strong> to enter the slide overview.
+					</p>
+					<p>
+						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+					</p>
+				</section>
+
+				<section>
+					<h2>Touch Optimized</h2>
+					<p>
+						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+					</p>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Markdown support
+
+						Write content using inline or external Markdown.
+						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+
+						```
+						<section data-markdown>
+						  ## Markdown support
+
+						  Write content using inline or external Markdown.
+						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+						</section>
+						```
+					</script>
+				</section>
+
+				<section>
+					<section id="fragments">
+						<h2>Fragments</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's different types of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p class="fragment highlight-red">highlight-red</p>
+						<p class="fragment highlight-blue">highlight-blue</p>
+					</section>
+				</section>
+
+				<section id="transitions">
+					<h2>Transition Styles</h2>
+					<p>
+						You can select from different transitions, like: <br>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+				</section>
+
+				<section id="themes">
+					<h2>Themes</h2>
+					<p>
+						reveal.js comes with a few themes built in: <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+
+				<section>
+					<section data-background="#dddddd">
+						<h2>Slide Backgrounds</h2>
+						<p>
+							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
+						</p>
+						<a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
+						<h2>Image Backgrounds</h2>
+						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
+						<h2>Tiled Backgrounds</h2>
+						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+					</section>
+					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
+						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+							<h2>Video Backgrounds</h2>
+							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+						</div>
+					</section>
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+						<h2>... and GIFs!</h2>
+					</section>
+				</section>
+
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
+					</p>
+					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+				</section>
+
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						You can override background transitions per-slide.
+					</p>
+					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+				</section>
+
+				<section>
+					<h2>Pretty Code</h2>
+					<pre><code class="hljs" data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+
+    var nodes = document.querySelectorAll( selector );
+
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+					</code></pre>
+					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+				</section>
+
+				<section>
+					<h2>Marvelous List</h2>
+					<ul>
+						<li>No order here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Fantastic Ordered List</h2>
+					<ol>
+						<li>One is smaller than...</li>
+						<li>Two is smaller than...</li>
+						<li>Three!</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Tabular Tables</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Value</th>
+								<th>Quantity</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Apples</td>
+								<td>$1</td>
+								<td>7</td>
+							</tr>
+							<tr>
+								<td>Lemonade</td>
+								<td>$2</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td>Bread</td>
+								<td>$3</td>
+								<td>2</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+					<h2>Clever Quotes</h2>
+					<p>
+						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
+					</p>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+					</blockquote>
+				</section>
+
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/2/3">like this</a>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Speaker View</h2>
+					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
+					<p>Press the <em>S</em> key to try it out.</p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+				<section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
+					<iframe src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				</section>
+
+				<section>
+					<h2>Global State</h2>
+					<p>
+						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
+						will be added as a class to the document element when the slide is open. This lets you
+						apply broader style changes, like switching the page background.
+					</p>
+				</section>
+
+				<section data-state="customevent">
+					<h2>State Events</h2>
+					<p>
+						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
+					</p>
+					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
+Reveal.addEventListener( 'customevent', function() {
+	console.log( '"customevent" has fired' );
+} );
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Take a Moment</h2>
+					<p>
+						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
+					</p>
+				</section>
+
+				<section>
+					<h2>Much more</h2>
+					<ul>
+						<li>Right-to-left support</li>
+						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+					</ul>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="http://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
