@@ -2588,7 +2588,7 @@ grid 3.5 mm, diameter 8 mm</description>
 <element name="SWITCH" library="jumper" package="JP1" value="" x="10.16" y="15.24" rot="R180"/>
 <element name="IN" library="jumper" package="JP1" value="" x="7.62" y="34.29" rot="R270"/>
 <element name="OUT" library="jumper" package="JP1" value="" x="15.24" y="6.35"/>
-<element name="C3" library="rcl" package="E3,5-8" value="220uF" x="24.13" y="5.08" rot="R180"/>
+<element name="C3" library="rcl" package="E3,5-8" value="220uF" x="25.4" y="5.08" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2668,17 +2668,15 @@ grid 3.5 mm, diameter 8 mm</description>
 <contactref element="IC1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="35.56" y1="34.29" x2="39.37" y2="34.29" width="0.8128" layer="1"/>
-<wire x1="39.37" y1="34.29" x2="33.02" y2="44.45" width="0.8128" layer="1"/>
-<wire x1="33.02" y1="44.45" x2="26.67" y2="44.45" width="0.8128" layer="1"/>
-<wire x1="26.67" y1="44.45" x2="26.67" y2="45.72" width="0.8128" layer="1"/>
+<wire x1="35.56" y1="34.29" x2="33.02" y2="44.45" width="0.8128" layer="1"/>
+<wire x1="33.02" y1="44.45" x2="34.29" y2="46.99" width="0.8128" layer="1"/>
+<wire x1="34.29" y1="46.99" x2="26.67" y2="45.72" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="C2" pad="2"/>
 <contactref element="POT" pad="3"/>
-<wire x1="30.48" y1="44.45" x2="31.75" y2="44.45" width="0.8128" layer="1"/>
-<wire x1="31.75" y1="44.45" x2="31.75" y2="22.86" width="0.8128" layer="1"/>
-<wire x1="31.75" y1="22.86" x2="40.64" y2="22.86" width="0.8128" layer="1"/>
+<wire x1="30.48" y1="44.45" x2="30.48" y2="22.86" width="0.8128" layer="1"/>
+<wire x1="30.48" y1="22.86" x2="40.64" y2="22.86" width="0.8128" layer="1"/>
 <wire x1="40.64" y1="22.86" x2="40.64" y2="19.05" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$9">
@@ -2690,11 +2688,11 @@ grid 3.5 mm, diameter 8 mm</description>
 <contactref element="LM386" pad="5"/>
 <contactref element="R7" pad="1"/>
 <contactref element="C3" pad="+"/>
-<wire x1="25.908" y1="5.08" x2="30.48" y2="5.08" width="0.8128" layer="1"/>
-<wire x1="25.908" y1="5.08" x2="24.13" y2="5.08" width="0.8128" layer="1"/>
-<wire x1="24.13" y1="5.08" x2="24.13" y2="10.16" width="0.8128" layer="1"/>
-<wire x1="24.13" y1="10.16" x2="19.05" y2="10.16" width="0.8128" layer="1"/>
-<wire x1="19.05" y1="10.16" x2="19.05" y2="13.97" width="0.8128" layer="1"/>
+<wire x1="27.178" y1="5.08" x2="30.48" y2="5.08" width="0.8128" layer="1"/>
+<wire x1="27.178" y1="5.08" x2="26.67" y2="6.35" width="0.8128" layer="1"/>
+<wire x1="26.67" y1="6.35" x2="26.67" y2="11.43" width="0.8128" layer="1"/>
+<wire x1="26.67" y1="11.43" x2="19.05" y2="11.43" width="0.8128" layer="1"/>
+<wire x1="19.05" y1="11.43" x2="19.05" y2="13.97" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="C4" pad="1"/>
@@ -2722,7 +2720,7 @@ grid 3.5 mm, diameter 8 mm</description>
 <signal name="N$11">
 <contactref element="C3" pad="-"/>
 <contactref element="OUT" pad="1"/>
-<wire x1="15.24" y1="5.08" x2="22.352" y2="5.08" width="0.8128" layer="1"/>
+<wire x1="15.24" y1="5.08" x2="23.622" y2="5.08" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C1" pad="2"/>
