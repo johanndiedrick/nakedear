@@ -1,7 +1,8 @@
-# Naked Ear: Introduction to Tools and Techniques for Sound Art
+# Naked Ear
+## Introduction to Tools and Techniques for Sound Art
 
 
-## Description
+### Description
 
 This workshop is for artists and researchers wanting to become more
 familiar with the potential of sound. Our focus will be on expanding our
@@ -29,7 +30,7 @@ workshop is
 to take these tools into the field and use them for artistic investigation
 and public engagement.
 
-## Content
+### Content
 
 For the first session, students will be introduced to the sound art
 practice. Examples of seminal and canonical works will be presented, giving
@@ -124,13 +125,6 @@ Things we will need in the studio for each student:
 
 - Jumper wires
 
-## Dates
-
-09/12/2015 and 09/13/2015
-
-## Price
-
-~$150-175 a student (plus materials, TBD)
 
 ## Instructor short bio
 
